@@ -1,4 +1,16 @@
+body {
+  background-color: #eef8f7;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
 .my-list {
-  color: steelblue;
-  font-size: 24px;
+  color: teal;
+  font-size: 22px;
+  list-style: none;
+  padding: 0;
+}
+
+.my-list li {
+  margin: 10px 0;
 }
