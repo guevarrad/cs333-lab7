@@ -1,9 +1,23 @@
 import "./App.css";
 
 function App() {
+  const name = "Dennis Guevarra";
+  const luckyNumber = Math.floor(Math.random() * 100);
+  
+  
+  const headingStyle = {
+    color: "teal",
+    fontSize: "42px",
+  };
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <h1 style={headingStyle}>Hello, {name}!</h1>
+      <p>Your lucky number is {luckyNumber}</p>
+            <ul className="my-list">
+        <li>Games</li>
+        <li>Basketball</li>
+        <li>Wife</li>
+      </ul>
     </div>
   );
 }
