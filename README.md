@@ -1,6 +1,8 @@
 # cs333-lab7
 Your first React app with Vite, then put the build on your server
 
+[Previous: Lab 6](../lab6/README.md)
+
 Do each step below and answer the questions right here in this README as you go (type your answer under each question). Everything is on your laptop until Part 5.
 
 You need:
